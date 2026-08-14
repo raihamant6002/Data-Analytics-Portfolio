@@ -2,17 +2,14 @@
 
 ## The Mission
 
-Every dataset tells a story, a hidden pattern, a suspicious price drop, a revenue curve waiting to be forecast. This repository is where I go looking for those stories. It is a hands on collection of applied data analytics work spanning audit analytics, tax analytics, regression modeling, and time series forecasting, built with Python (pandas, statsmodels, matplotlib) and RStudio.
+Every dataset tells a story, a hidden pattern, a suspicious price drop, a revenue curve waiting to be forecast. This repository is where I go looking for those stories. It is a hands on collection of applied data analytics work spanning audit analytics, regression modeling, and time series forecasting, built with Python (pandas, statsmodels, matplotlib) and RStudio.
 
-Each notebook below is a standalone investigation: raw data in, a clear analytical question, and a defensible answer out, the same workflow used in real audit, tax, and financial analytics roles.
+Each notebook below is a standalone investigation: raw data in, a clear analytical question, and a defensible answer out, the same workflow used in real audit, and financial analytics roles.
 
 ## The Expeditions
 
 ### Audit Analytics
 Digging through transactional sales and inventory data to flag anomalies auditors actually care about, including inconsistent pricing across transactions, below cost sales, and potential inventory misstatements. Uses groupby, multi table merges, and threshold based flagging to surface risk at scale (millions of rows, not a toy dataset).
-
-### Tax Analytics
-Applying the same data driven investigative approach to tax relevant datasets, identifying trends and outliers that support compliance review and decision making.
 
 ### Regression Analysis
 Building and evaluating OLS regression models (via statsmodels) to explain revenue using operational drivers like production volume and weather driven demand (cooling and heating degree days). Includes model comparison using MAPE (Mean Absolute Percentage Error) to determine which model actually predicts best, not just which one looks good on paper.
@@ -31,7 +28,6 @@ Python, pandas, NumPy, statsmodels, matplotlib, RStudio, Statistical Modeling, R
 
 data_analytics_portfolio/
 audit_analytics/
-tax_analytics/
 regression_analysis/
 dummy_variables/
 time_series_forecasting/
